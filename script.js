@@ -34,7 +34,9 @@ document.getElementById('spinRoulette').addEventListener('click', function() {
         { nombre: 'Launch Pad 🫨', descripcion: ' Como las manos de quien está debajo quedan libres, es perfecta para masturbarse y, así, alcanzar el orgasmo', imagen: 'img/launch.webp' },
         { nombre: 'La princesa 👸🏻', descripcion: ' Uno de los dos debe sentarse sobre sus piernas y apoyar las palmas de sus manos detrás. Mientras tanto, el otro está acostado y penetra por detrás.', imagen: 'img/princesa.webp' },
         { nombre: 'Oral Piramide 🛕', descripcion: 'Ella debe acostarse y, con ayuda de la pareja, elevar sus piernas hasta que queden sobre los hombros de la pareja.', imagen: 'img/oral-piramide.webp' },
-        { nombre: 'Mantequilla 🧈', descripcion: 'Ella uno de los dos debe acostarse y llevar sus piernas hacia la cabeza.', imagen: 'img/mantequilla.webp' }, 
+        { nombre: 'Mantequilla 🧈', descripcion: 'Ella uno de los dos debe acostarse y llevar sus piernas hacia la cabeza.', imagen: 'img/mantequilla.webp' },
+        
+        
 
     ];
     const resultado = posiciones[Math.floor(Math.random() * posiciones.length)];
