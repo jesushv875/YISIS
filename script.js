@@ -8,84 +8,54 @@ if ('serviceWorker' in navigator) {
     });
 }
 
-// Lógica de la ruleta erótica
 document.getElementById('spinRoulette').addEventListener('click', function() {
     const posiciones = [
-        'Misionero 🔥 - El clásico frente a frente con máxima conexión visual.',
-        'Perrito 🐶 - Desde atrás, permitiendo un ritmo más profundo.',
-        'Vaquera 🤠 - Ella arriba, dominando el movimiento.',
-        '69 😏 - Placer mutuo en una posición invertida.',
-        'Loto 🪷 - Sentados entrelazados para una conexión íntima.',
-        'Cucharita 🥄 - Acostados de lado, ideal para caricias.',
-        'Amazonas 🏇 - Ella arriba inclinada hacia adelante.',
-        'Andromaca 🏛️ - Similar a la vaquera, pero con más control.',
-        'El tornillo 🔩 - Un giro inesperado con torsión.',
-        'El columpio 🎡 - Con apoyo de muebles o resistencia.',
-        'Mariposa 🦋 - Piernas elevadas para mayor profundidad.',
-        'Tijera ✂️ - Intersección de piernas para un ángulo único.',
-        'Arco divino 🎯 - Ella arquea la espalda para estimulación intensa.',
-        'El puente 🌉 - Él sostiene su peso con manos y pies.',
-        'Dragón alado 🐉 - Una variación intensa del perrito.',
-        'Liana 🌿 - Él de pie, ella abrazada a su cintura.',
-        'Silla erótica 🪑 - Él sentado, ella sobre él.',
-        'El triángulo 🔺 - Piernas entrelazadas para sensaciones nuevas.',
-        'Orquídea exótica 🌺 - Estimulación profunda con inclinación.',
-        'El anillo de fuego 🔥 - Movimientos circulares y rítmicos.',
-        'La estrella fugaz ✨ - Posición lateral para intensidad.',
-        'V invertida ⬆️ - Ella apoya manos y pies con inclinación.',
-        'Carretilla 🛒 - Él sostiene las piernas de ella en el aire.',
-        'El delfín 🐬 - Una variación juguetona de la cucharita.',
-        'Péndulo 🕰️ - Balanceo sensual para exploración.',
-        'Cabalgata salvaje 🐎 - Movimiento rítmico e intenso.',
-        'El ángel caído 👼 - Un giro de 180 grados en la penetración.',
-        'Roca sólida 🏔️ - Apoyo en una superficie firme para control.',
-        'Pose del loto doble 💞 - Ambos entrelazados en sincronía.',
-        'La trenza 🧶 - Enredo sensual de piernas y cuerpos.',
-        'Montaña rusa 🎢 - Ritmos cambiantes y emociones intensas.',
-        'El cisne negro 🦢 - Elevación elegante para máximo placer.',
-        'El anzuelo 🎣 - Una pierna elevada para un ángulo especial.',
-        'Péndulo invertido 🔄 - Giros y cambios de dirección.',
-        'El guerrero ⚔️ - Ambos en posición fuerte y dominante.',
-        'El jaguar 🐆 - Una versión intensa del perrito.',
-        'Laberinto 🔀 - Juego de piernas y penetraciones lentas.',
-        'El pulpo 🐙 - Movimientos envolventes y múltiples caricias.',
-        'El trono real 👑 - Él sentado con ella dominando.',
-        'La ola 🌊 - Ritmo ondulante como el mar.',
-        'Serpiente encantada 🐍 - Movimientos sinuosos y tentadores.',
-        'Muelle 🔄 - Rebotes controlados y profundos.',
-        'Cometa 🌠 - Una inclinación aérea estimulante.',
-        'Mariposa dorada 🦋 - Elevación y control absoluto.',
-        'Eco 🔁 - Ritmo repetitivo y armonioso.',
-        'Pose del reloj ⏳ - Ambos en una curva sensual.',
-        'La grulla blanca 🦢 - Equilibrio y resistencia.',
-        'El candado 🔐 - Piernas entrelazadas en un abrazo.',
-        'Marea alta 🌊 - Control absoluto del movimiento.',
-        'Espejo 🔲 - Reflejo y juego visual.',
-        'El ave fénix 🔥 - Renacer en el placer.',
-        'Nube de placer ☁️ - Contacto y ritmo lento.',
-        'El relámpago ⚡ - Ráfagas de intensidad.',
-        'Cinturón de Venus 💫 - Giros y cambios sutiles.',
-        'La perla negra ⚫ - Exploración profunda.',
-        'El remolino 🌪️ - Cambios de dirección continuos.',
-        'Río ardiente 🔥 - Corrientes de deseo.',
-        'Pico de montaña 🏔️ - Elevación máxima.',
-        'Caricia celestial ✨ - Contacto total.',
-        'Cueva secreta 🏚️ - Movimientos sigilosos.',
-        'La flecha de Cupido 🏹 - Intensidad apasionada.',
-        'Cruz de fuego 🔥 - Fusión total.',
-        'Explosión estelar 💥 - Final perfecto.',
+        { nombre: 'Misionero 🔥', descripcion: 'El clásico frente a frente con máxima conexión visual.', imagen: 'img/misionero.webp' },
+        { nombre: 'Perrito 🐶', descripcion: 'Desde atrás, permitiendo un ritmo más profundo.', imagen: 'img/perrito.webp' },
+        { nombre: 'Vaquera 🤠', descripcion: 'Ella arriba, dominando el movimiento.', imagen: 'img/vaquera.webp' },
+        { nombre: '69 😏', descripcion: 'Placer mutuo en una posición invertida.', imagen: 'img/69.webp' },
+        { nombre: 'Loto 🪷', descripcion: 'Sentados entrelazados para una conexión íntima.', imagen: 'img/loto.webp' },
+        { nombre: 'Cucharita 🥄', descripcion: 'Acostados de lado, ideal para caricias.', imagen: 'img/cucharita.webp' },
+        { nombre: 'Amazonas 🏇', descripcion: 'Ella arriba inclinada hacia adelante.', imagen: 'img/amazona.webp' },
+        { nombre: 'De pie🏇', descripcion: 'El la carga mientras la penetra.', imagen: 'img/pie.webp' },
+        { nombre: 'Andromaca 🏛️', descripcion: 'Similar a la vaquera, pero con más control.', imagen: 'img/andromaca.webp' },
+        { nombre: 'El trono 🪑 ', descripcion: 'Ella se sienta encima de el.', imagen: 'img/trono.webp' },
+        { nombre: 'Tijera ✂️ ', descripcion: 'Intersección de piernas para un ángulo único.', imagen: 'img/tijera.webp' },
+        { nombre: 'El puente 🌉', descripcion: 'Él sostiene su peso con manos y pies.', imagen: 'img/puente.webp' },
+        { nombre: 'Unión de la abeja 🐝', descripcion: 'El permanece recostado, ella se sienta encima de costado.', imagen: 'img/abeja.webp' },
+        { nombre: 'Vaquera Invertido 🤠', descripcion: 'Ella arriba de espaldas a la pareja con las piernas a los lados.', imagen: 'img/vaquera-invertido.webp' },
+        { nombre: 'El arquero 🏹', descripcion: 'Ella arriba de el cruzando la pierna.', imagen: 'img/arquero.webp' },
+        { nombre: 'Parados pierna arriba 🧍🏼🧍🏽‍♀️', descripcion: 'Ella debe elevar su pierna por el costado del cuerpo de el.', imagen: 'img/parado-pierna-arriba.webp' },
+        { nombre: 'Perrito tumbado', descripcion: 'Ella se acuesta boca abajo y el la penetra.', imagen: 'img/perrito-tumbado.webp' },
+        { nombre: 'De espaldas 🧍🏼🧍🏽‍♀️', descripcion: 'Ambos de pie y ella de espalda.', imagen: 'img/espaldas.webp' },
+        { nombre: 'Oral Parado  🧎🏼‍♀️‍➡️ 🧍🏼', descripcion: 'Ella debe estar incada dando oral', imagen: 'img/oral-parado.webp' },
+        { nombre: 'Eros ❤️‍🔥', descripcion: 'Las piernas elevadas mejoran el ángulo', imagen: 'img/eros.webp' },
+        { nombre: 'Regalo de  navidad  🎁', descripcion: 'Cárgala de forma suave hacia tu pecho', imagen: 'img/regalo.webp' },
+        { nombre: 'Launch Pad 🫨', descripcion: ' Como las manos de quien está debajo quedan libres, es perfecta para masturbarse y, así, alcanzar el orgasmo', imagen: 'img/launch.webp' },
+        { nombre: 'La princesa 👸🏻', descripcion: ' Uno de los dos debe sentarse sobre sus piernas y apoyar las palmas de sus manos detrás. Mientras tanto, el otro está acostado y penetra por detrás.', imagen: 'img/princesa.webp' },
+        { nombre: 'Oral Piramide 🛕', descripcion: 'Ella debe acostarse y, con ayuda de la pareja, elevar sus piernas hasta que queden sobre los hombros de la pareja.', imagen: 'img/oral-piramide.webp' },
+        { nombre: 'Mantequilla 🧈', descripcion: 'Ella uno de los dos debe acostarse y llevar sus piernas hacia la cabeza.', imagen: 'img/mantequilla.webp' }, 
+
     ];
     const resultado = posiciones[Math.floor(Math.random() * posiciones.length)];
-    document.getElementById('rouletteResult').innerText = `¡Prueba esta posición: ${resultado}!`;
+    document.getElementById('rouletteResult').innerHTML = `<strong>${resultado.nombre}</strong><br>${resultado.descripcion}<br><img src="${resultado.imagen}" alt="${resultado.nombre}" width="200">`;
 });
 
 // Lógica de los dados sexuales
 document.getElementById('rollDice').addEventListener('click', function() {
-    const acciones = ['Besar 💋', 'Lamer 👅', 'Morder 😈', 'Acariciar 🤲'];
-    const zonas = ['Cuello 🧣', 'Labios 💋', 'Oreja 👂', 'Pecho 🍑', 'Espalda 🖐️'];
+    const accionesGenerales = ['Besar 💋', 'Lamer 👅', 'Morder 😈', 'Acariciar 🤲', 'Chupar 👄', 'Estimular con la mano ✋'];
+    const accionesPenetracion = ['Penetrar 🍆💦', 'Frotar intensamente 🔥'];
+    const zonasGenerales = ['Cuello 🧣', 'Labios 💋', 'Oreja 👂', 'Pecho 🍑', 'Espalda 🖐️', 'Muslos 🔥'];
+    const zonasPenetrables = ['Pene 🍆', 'Vagina 💦', 'Clítoris 🌸', 'Ano 🍑'];
     
-    const accion = acciones[Math.floor(Math.random() * acciones.length)];
-    const zona = zonas[Math.floor(Math.random() * zonas.length)];
+    let accion, zona;
+    if (Math.random() < 0.3) { // 30% de probabilidad de obtener una acción de penetración
+        accion = accionesPenetracion[Math.floor(Math.random() * accionesPenetracion.length)];
+        zona = zonasPenetrables[Math.floor(Math.random() * zonasPenetrables.length)];
+    } else { // 70% para acciones generales
+        accion = accionesGenerales[Math.floor(Math.random() * accionesGenerales.length)];
+        zona = zonasGenerales[Math.floor(Math.random() * zonasGenerales.length)];
+    }
     
     document.getElementById('diceResult').innerText = `¡${accion} en ${zona}!`;
 });
