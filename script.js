@@ -48,7 +48,7 @@ document.getElementById('rollDice').addEventListener('click', function() {
     const accionesGenerales = ['Besar 💋', 'Lamer 👅', 'Morder 😈', 'Acariciar 🤲', 'Chupar 👄', 'Estimular con la mano ✋'];
     const accionesPenetracion = ['Penetrar 🍆💦', 'Frotar intensamente 🔥'];
     const zonasGenerales = ['Cuello 🧣', 'Labios 💋', 'Oreja 👂', 'Pecho 🍑', 'Espalda 🖐️', 'Muslos 🔥'];
-    const zonasPenetrables = ['Pene 🍆', 'Vagina 💦', 'Clítoris 🌸', 'Ano 🍑'];
+    const zonasPenetrables = ['Boca 👄', 'Vagina 💦', 'Clítoris 🌸', 'Ano 🍑'];
     
     let accion, zona;
     if (Math.random() < 0.3) { // 30% de probabilidad de obtener una acción de penetración
