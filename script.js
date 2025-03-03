@@ -122,9 +122,12 @@ document.getElementById('truthButton').addEventListener('click', function() {
         { pregunta: '¿Cuál es tu juguete sexual favorito?' },
         { pregunta: '¿Te gusta el sexo en lugares públicos? ¿Dónde te atreverías?' },
         { pregunta: '¿Qué parte de mi cuerpo te gusta más?' },
-        { pregunta: '¿Te gustaría probar el BDSM (Juego de amarres con cuardas)? ¿Hasta qué nivel?' }
-
-
+        { pregunta: '¿Te gustaría probar el BDSM (Juego de amarres con cuardas)? ¿Hasta qué nivel?' },
+        { pregunta: '¿De que tegustaría que se disfrasara tu pareja?' },
+        { pregunta: '¿Prefieres el sexo romántico o rudo? ¿Por qué?' },
+        { pregunta: '¿Alguna vez te han pillado en el acto? ¿Qué hiciste?' },
+        { pregunta: '¿Qué te excita más: dominar o ser dominado/a?' },
+        { pregunta: '¿Qué tipo de contenido erótico te excita más? (Películas, relatos, hentai, BDSM, etc.)' }
     ];
     
     const resultado = verdades[Math.floor(Math.random() * verdades.length)];
@@ -144,7 +147,23 @@ document.getElementById('dareButton').addEventListener('click', function() {
         { desafio: 'Tócate frente a tu pareja sin que te toque' },
         { desafio: 'Quítate una prenda lentamente mientras tu pareja observa.' },
         { desafio: 'Chupa o muerde suavemente el lóbulo de la oreja de tu pareja.' },
-        { desafio: 'Ata las manos de tu pareja y juega con su cuerpo.' }
+        { desafio: 'Ata las manos de tu pareja, lame su oreja, respira, besala y lame.' },
+        { desafio: 'Esposa las manos de tu pareja y empieza a besar del cuello hasta la zona pelvica.' },
+        { desafio: 'Quita la prenda de abajo y empieza a besarme por encima.' },
+        { desafio: 'Intenta adivinar cuando fue la última vaz que el/ella se  masturbó.' },
+        { desafio: 'Desliza un dildo o juguete sexual sobre la piel de ella sin penetración.' },
+        { desafio: 'Usa lubricante y estimula a tu pareja durante 2 minutos sin penetración.' },
+        { desafio: 'Ata suavemente las muñecas de tu pareja y dale placer sin que pueda moverse.' },
+        { desafio: 'Chupa y lame los pezones de ella hasta que gima de placer.' },
+        { desafio: 'Dale sexo oral a tu pareja durante 1 minuto sin detenerte.' },
+        { desafio: 'Prueba una nueva posición del Kamasutra que nunca hayan intentado.' },
+        { desafio: 'Ingresa plug anal a ella por 5 minutos y describe la sensación.' },
+        { desafio: 'Besos intensos por 2 minutos sin que ninguna otra parte del cuerpo se toque.' },
+        { desafio: 'Recibe una nalgada con la intensidad que tu pareja elija.' },
+        { desafio: 'Estimula el clítoris o el pene de tu pareja sin que llegue al orgasmo durante 3 minutos.' },
+        { desafio: 'Usa una pluma o un trozo de tela para recorrer todo el cuerpo de ella.' }
+
+
 
     ];
     
