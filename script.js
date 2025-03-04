@@ -28,7 +28,7 @@ document.getElementById('spinRoulette').addEventListener('click', function() {
         { nombre: 'Parados pierna arriba 🧍🏼🧍🏽‍♀️', descripcion: 'Ella debe elevar su pierna por el costado del cuerpo de el.', imagen: 'img/parado-pierna-arriba.webp' },
         { nombre: 'Perrito tumbado', descripcion: 'Ella se acuesta boca abajo y el la penetra.', imagen: 'img/perrito-tumbado.webp' },
         { nombre: 'De espaldas 🧍🏼🧍🏽‍♀️', descripcion: 'Ambos de pie y ella de espalda.', imagen: 'img/espaldas.webp' },
-        { nombre: 'Oral Parado  🧎🏼‍♀️‍➡️ 🧍🏼', descripcion: 'Ella debe estar incada dando oral', imagen: 'img/oral-parado.webp' },
+        { nombre: 'Oral Parado  🧎🏼‍♀️‍➡️ 🧍🏼', descripcion: 'El/ella debe estar dando oral mientras el/ella está de pie', imagen: 'img/oral-parado.webp' },
         { nombre: 'Eros ❤️‍🔥', descripcion: 'Las piernas elevadas mejoran el ángulo', imagen: 'img/eros.webp' },
         { nombre: 'Regalo de  navidad  🎁', descripcion: 'Cárgala de forma suave hacia tu pecho', imagen: 'img/regalo.webp' },
         { nombre: 'Launch Pad 🫨', descripcion: ' Como las manos de quien está debajo quedan libres, es perfecta para masturbarse y, así, alcanzar el orgasmo', imagen: 'img/launch.webp' },
@@ -36,7 +36,7 @@ document.getElementById('spinRoulette').addEventListener('click', function() {
         { nombre: 'Oral Piramide 🛕', descripcion: 'Ella debe acostarse y, con ayuda de la pareja, elevar sus piernas hasta que queden sobre los hombros de la pareja.', imagen: 'img/oral-piramide.webp' },
         { nombre: 'Mantequilla 🧈', descripcion: 'Ella uno de los dos debe acostarse y llevar sus piernas hacia la cabeza.', imagen: 'img/mantequilla.webp' },
         { nombre: 'El prisionero 👮🏽‍♂️', descripcion: 'La persona que está arrestada puede bajar o elevar la cabeza, según le parezca más cómodo.', imagen: 'img/prisionero.webp' },
-        { nombre: 'La Libelula 🐞', descripcion: ' Mientras practica un oral, permanece recostado y puede masturbarse. ', imagen: 'img/libelula.webp' },
+        { nombre: 'La Libelula 🐞', descripcion: ' Mientras ella practica un oral y permanece recostada, puede masturbarse. ', imagen: 'img/libelula.webp' },
         { nombre: 'El sapo 🐸', descripcion: 'La idea inicial es que ambos estén de cuclillas, pero pueden simplificarlo al arrodillarse como en la imagen.', imagen: 'img/sapo.webp' },
         { nombre: 'El perezoso 🦥', descripcion: 'Debes bajar hasta la zona íntima de tu pareja y pedirle que abra sus piernas. Luego, solo tienes que recostarte boca abajo y hacer un buen sexo oral con la lengua y las manos.', imagen: 'img/perezoso.webp' },
         { nombre: 'La incansable 😎', descripcion: 'Estar ambos recostados, uno encima del otro.', imagen: 'img/incansable.webp' },
@@ -96,7 +96,7 @@ document.getElementById('spinRoulette').addEventListener('click', function() {
 document.getElementById('rollDice').addEventListener('click', function() {
     const accionesGenerales = ['Besar 💋', 'Lamer 👅', 'Morder 😈', 'Acariciar 🤲', 'Chupar 👄', 'Estimular con la mano ✋'];
     const accionesPenetracion = ['Penetrar 🍆💦', 'Frotar intensamente 🔥'];
-    const zonasGenerales = ['Cuello 🧣', 'Labios 💋', 'Oreja 👂', 'Pecho 🍑', 'Espalda 🖐️', 'Muslos 🔥'];
+    const zonasGenerales = ['Cuello 🧣', 'Labios 💋', 'Oreja 👂', 'Pecho 🍑', 'Espalda 🖐️', 'Muslos 🔥','Clítoris 🌸','Boca 👄', 'Vagina 💦', 'Clítoris 🌸', 'Ano 🍑'];
     const zonasPenetrables = ['Boca 👄', 'Vagina 💦', 'Clítoris 🌸', 'Ano 🍑'];
     
     let accion, zona;
@@ -122,12 +122,16 @@ document.getElementById('truthButton').addEventListener('click', function() {
         { pregunta: '¿Cuál es tu juguete sexual favorito?' },
         { pregunta: '¿Te gusta el sexo en lugares públicos? ¿Dónde te atreverías?' },
         { pregunta: '¿Qué parte de mi cuerpo te gusta más?' },
-        { pregunta: '¿Te gustaría probar el BDSM (Juego de amarres con cuardas)? ¿Hasta qué nivel?' },
-        { pregunta: '¿De que tegustaría que se disfrasara tu pareja?' },
+        { pregunta: '¿Te gustaría probar el BDSM (Juego de amarres con cuerdas)? ¿Hasta qué nivel?' },
+        { pregunta: '¿De que te gustaría que se disfrasara tu pareja?' },
         { pregunta: '¿Prefieres el sexo romántico o rudo? ¿Por qué?' },
         { pregunta: '¿Alguna vez te han pillado en el acto? ¿Qué hiciste?' },
         { pregunta: '¿Qué te excita más: dominar o ser dominado/a?' },
-        { pregunta: '¿Qué tipo de contenido erótico te excita más? (Películas, relatos, hentai, BDSM, etc.)' }
+        { pregunta: '¿Qué tipo de contenido erótico te excita más? (Películas, relatos, hentai, BDSM, etc.)' },
+        { pregunta: '¿Con qué canción prefieres hacerlo?' },
+        { pregunta: '¿Te excita que te graben o tomar fotos en la intimidad?' },
+        { pregunta: '¿Te gustaría experimentar con más de una persona a la vez?' },
+        { pregunta: '¿Pregunta libre' }
     ];
     
     const resultado = verdades[Math.floor(Math.random() * verdades.length)];
@@ -149,8 +153,8 @@ document.getElementById('dareButton').addEventListener('click', function() {
         { desafio: 'Chupa o muerde suavemente el lóbulo de la oreja de tu pareja.' },
         { desafio: 'Ata las manos de tu pareja, lame su oreja, respira, besala y lame.' },
         { desafio: 'Esposa las manos de tu pareja y empieza a besar del cuello hasta la zona pelvica.' },
-        { desafio: 'Quita la prenda de abajo y empieza a besarme por encima.' },
-        { desafio: 'Intenta adivinar cuando fue la última vaz que el/ella se  masturbó.' },
+        { desafio: 'Quita la prenda de abajo y empieza a besar por encima.' },
+        { desafio: 'Intenta adivinar cuando fue la última vez que el/ella se  masturbó.' },
         { desafio: 'Desliza un dildo o juguete sexual sobre la piel de ella sin penetración.' },
         { desafio: 'Usa lubricante y estimula a tu pareja durante 2 minutos sin penetración.' },
         { desafio: 'Ata suavemente las muñecas de tu pareja y dale placer sin que pueda moverse.' },
@@ -161,9 +165,17 @@ document.getElementById('dareButton').addEventListener('click', function() {
         { desafio: 'Besos intensos por 2 minutos sin que ninguna otra parte del cuerpo se toque.' },
         { desafio: 'Recibe una nalgada con la intensidad que tu pareja elija.' },
         { desafio: 'Estimula el clítoris o el pene de tu pareja sin que llegue al orgasmo durante 3 minutos.' },
-        { desafio: 'Usa una pluma o un trozo de tela para recorrer todo el cuerpo de ella.' }
-
-
+        { desafio: 'Usa una pluma o un trozo de tela para recorrer todo el cuerpo de ella.' },
+        { desafio: 'Practica el sexo en cámara lenta, sin acelerar, por al menos 5 minutos.' },  
+        { desafio: 'Grabarse teniendo sexo.' },
+        { desafio: 'Reto libre' },
+        { desafio: 'Gira la ruleta hasta que salga un oral' },
+        { desafio: 'Gira la ruleta hasta que salga un anal' },
+        { desafio: 'Gira la ruleta hasta que salga un vaginal' },
+        { desafio: 'Gira la ruleta hasta que salga una posición parados' },
+        { desafio: 'Recibe un golpe con el látigo' },
+        { desafio: 'Te toca vendarte los ojos' },
+        { desafio: 'Elige un juguete' }
 
     ];
     
