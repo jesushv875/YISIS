@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Para Dos",
+    "slug": "yisis",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#fce4ec",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#fce4ec"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.paradosapp.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Usado para grabar momentos íntimos si lo desean.",
+        "NSMicrophoneUsageDescription": "Necesario para grabación de video."
+      }
+    },
+    "android": {
+      "package": "com.paradosapp.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#e91e8c"
+      }
+    },
+    "plugins": [
+      "expo-asset"
+    ],
+    "extra": {
+      "ageRating": "17+",
+      "contentRating": "adult",
+      "eas": {
+        "projectId": "bdb8615e-ded6-4ade-96e8-6679f01ff8d4"
+      }
+    },
+    "owner": "jesushv"
+  }
+}
