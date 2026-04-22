@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx expo *)",
+      "Bash(npm list *)",
+      "Bash(node *)",
+      "Bash(awk '/export const verdades/,/export const retos/' /Users/eduardohernandez/YISIS/mobile/data/gameData.js)",
+      "Bash(awk '/export const retos/,/export const diceActions/' /Users/eduardohernandez/YISIS/mobile/data/gameData.js)",
+      "Bash(awk '/export const diceActions/,/^\\\\];/' /Users/eduardohernandez/YISIS/mobile/data/gameData.js)",
+      "Bash(npx eas-cli@latest init --id a1f84afa-f7f6-4815-871b-dd1e887ad02b)",
+      "Bash(curl *)",
+      "Bash(python3 -c ' *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
+    ]
+  }
+}
